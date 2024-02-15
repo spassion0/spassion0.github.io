@@ -1,0 +1,62 @@
+body {
+    background-color: #161616;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.header {
+    padding: 0%;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(247, 229, 185);
+    overflow: auto;
+}
+.header .login {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    line-height: 5px;
+}
+
+.header .login * {
+    margin: 0px;
+    line-height: 20px;
+}
+
+.header .title {
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    line-height: 5px;
+}
+
+.intro {
+    margin-left: 20px;
+}
+
+.intro h1 {
+    color: white;
+}
+
+.intro h2 {
+    color: white;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+
+a {
+    color: rgb(0, 166, 255);
+}
