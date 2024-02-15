@@ -76,6 +76,11 @@ body {
     clear: both;
 }
 
+.conclusion {
+    margin-left: 20px;
+    color: white;
+}
+
 .footer {
     margin-left: 20px;
     margin-bottom: 20px;
